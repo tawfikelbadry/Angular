@@ -1,0 +1,19 @@
+<p style="background: #F00;padding: 20px" >
+ Frst Component 
+</p>
+<table border="1" style="text-align: center">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Icon</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let x of data">
+      <td>{{x.id}}</td>
+      <td>{{x.name}}</td>
+      <th>{{x.icon}}</th>
+    </tr>
+  </tbody>
+</table>
